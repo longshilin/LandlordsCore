@@ -1,72 +1,192 @@
 fileFormatVersion: 2
 guid: d8396ba905ec610429f1c55258169be8
-timeCreated: 1510706414
-licenseType: Pro
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: ClubEight
-    21300002: ClubFive
-    21300004: ClubFour
-    21300006: ClubJack
-    21300008: ClubKing
-    21300010: ClubNine
-    21300012: ClubOne
-    21300014: ClubQueen
-    21300016: ClubSeven
-    21300018: ClubSix
-    21300020: ClubTen
-    21300022: ClubThree
-    21300024: ClubTwo
-    21300026: DiamondEight
-    21300028: DiamondFive
-    21300030: DiamondFour
-    21300032: DiamondJack
-    21300034: DiamondKing
-    21300036: DiamondNine
-    21300038: DiamondOne
-    21300040: DiamondQueen
-    21300042: DiamondSeven
-    21300044: DiamondSix
-    21300046: DiamondTen
-    21300048: DiamondThree
-    21300050: DiamondTwo
-    21300052: HeartEight
-    21300054: HeartFive
-    21300056: HeartFour
-    21300058: HeartJack
-    21300060: HeartKing
-    21300062: HeartNine
-    21300064: HeartQueen
-    21300066: HeartSeven
-    21300068: HeartSix
-    21300070: HeartTen
-    21300072: HeartThree
-    21300074: HeartTwo
-    21300076: Identity_Farmer
-    21300078: Identity_Landlord
-    21300080: Ljoker
-    21300082: Sjoker
-    21300084: SpadeEight
-    21300086: SpadeFive
-    21300088: SpadeFour
-    21300090: SpadeJack
-    21300092: SpadeKing
-    21300094: SpadeNine
-    21300096: SpadeOne
-    21300098: SpadeQueen
-    21300100: SpadeSeven
-    21300102: SpadeSix
-    21300104: SpadeTen
-    21300106: SpadeThree
-    21300108: SpadeTwo
-    21300110: BuChu
-    21300112: Clock
-    21300114: Role1
-    21300116: Role2
-    21300118: None
-    21300120: HeartOne
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: ClubEight
+  - first:
+      213: 21300002
+    second: ClubFive
+  - first:
+      213: 21300004
+    second: ClubFour
+  - first:
+      213: 21300006
+    second: ClubJack
+  - first:
+      213: 21300008
+    second: ClubKing
+  - first:
+      213: 21300010
+    second: ClubNine
+  - first:
+      213: 21300012
+    second: ClubOne
+  - first:
+      213: 21300014
+    second: ClubQueen
+  - first:
+      213: 21300016
+    second: ClubSeven
+  - first:
+      213: 21300018
+    second: ClubSix
+  - first:
+      213: 21300020
+    second: ClubTen
+  - first:
+      213: 21300022
+    second: ClubThree
+  - first:
+      213: 21300024
+    second: ClubTwo
+  - first:
+      213: 21300026
+    second: DiamondEight
+  - first:
+      213: 21300028
+    second: DiamondFive
+  - first:
+      213: 21300030
+    second: DiamondFour
+  - first:
+      213: 21300032
+    second: DiamondJack
+  - first:
+      213: 21300034
+    second: DiamondKing
+  - first:
+      213: 21300036
+    second: DiamondNine
+  - first:
+      213: 21300038
+    second: DiamondOne
+  - first:
+      213: 21300040
+    second: DiamondQueen
+  - first:
+      213: 21300042
+    second: DiamondSeven
+  - first:
+      213: 21300044
+    second: DiamondSix
+  - first:
+      213: 21300046
+    second: DiamondTen
+  - first:
+      213: 21300048
+    second: DiamondThree
+  - first:
+      213: 21300050
+    second: DiamondTwo
+  - first:
+      213: 21300052
+    second: HeartEight
+  - first:
+      213: 21300054
+    second: HeartFive
+  - first:
+      213: 21300056
+    second: HeartFour
+  - first:
+      213: 21300058
+    second: HeartJack
+  - first:
+      213: 21300060
+    second: HeartKing
+  - first:
+      213: 21300062
+    second: HeartNine
+  - first:
+      213: 21300064
+    second: HeartQueen
+  - first:
+      213: 21300066
+    second: HeartSeven
+  - first:
+      213: 21300068
+    second: HeartSix
+  - first:
+      213: 21300070
+    second: HeartTen
+  - first:
+      213: 21300072
+    second: HeartThree
+  - first:
+      213: 21300074
+    second: HeartTwo
+  - first:
+      213: 21300076
+    second: Identity_Farmer
+  - first:
+      213: 21300078
+    second: Identity_Landlord
+  - first:
+      213: 21300080
+    second: Ljoker
+  - first:
+      213: 21300082
+    second: Sjoker
+  - first:
+      213: 21300084
+    second: SpadeEight
+  - first:
+      213: 21300086
+    second: SpadeFive
+  - first:
+      213: 21300088
+    second: SpadeFour
+  - first:
+      213: 21300090
+    second: SpadeJack
+  - first:
+      213: 21300092
+    second: SpadeKing
+  - first:
+      213: 21300094
+    second: SpadeNine
+  - first:
+      213: 21300096
+    second: SpadeOne
+  - first:
+      213: 21300098
+    second: SpadeQueen
+  - first:
+      213: 21300100
+    second: SpadeSeven
+  - first:
+      213: 21300102
+    second: SpadeSix
+  - first:
+      213: 21300104
+    second: SpadeTen
+  - first:
+      213: 21300106
+    second: SpadeThree
+  - first:
+      213: 21300108
+    second: SpadeTwo
+  - first:
+      213: 21300110
+    second: BuChu
+  - first:
+      213: 21300112
+    second: Clock
+  - first:
+      213: 21300114
+    second: Role1
+  - first:
+      213: 21300116
+    second: Role2
+  - first:
+      213: 21300118
+    second: None
+  - first:
+      213: 21300120
+    second: HeartOne
   externalObjects: {}
-  serializedVersion: 4
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -84,6 +204,9 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -94,7 +217,7 @@ TextureImporter:
     serializedVersion: 2
     filterMode: -1
     aniso: -1
-    mipBias: -1
+    mipBias: -100
     wrapU: 1
     wrapV: -1
     wrapW: -1
@@ -114,11 +237,17 @@ TextureImporter:
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -128,7 +257,9 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - buildTarget: Standalone
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -138,6 +269,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -155,6 +287,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: ClubFive
       rect:
@@ -169,6 +308,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: ClubFour
       rect:
@@ -183,6 +329,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: ClubJack
       rect:
@@ -197,6 +350,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: ClubKing
       rect:
@@ -211,6 +371,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: ClubNine
       rect:
@@ -225,6 +392,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a2305410000000000800000000000000
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: ClubOne
       rect:
@@ -239,6 +413,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c2305410000000000800000000000000
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: ClubQueen
       rect:
@@ -253,6 +434,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e2305410000000000800000000000000
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: ClubSeven
       rect:
@@ -267,6 +455,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 03305410000000000800000000000000
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: ClubSix
       rect:
@@ -281,6 +476,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 23305410000000000800000000000000
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: ClubTen
       rect:
@@ -295,6 +497,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 43305410000000000800000000000000
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: ClubThree
       rect:
@@ -309,6 +518,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 63305410000000000800000000000000
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: ClubTwo
       rect:
@@ -323,6 +539,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 83305410000000000800000000000000
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: DiamondEight
       rect:
@@ -337,6 +560,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a3305410000000000800000000000000
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: DiamondFive
       rect:
@@ -351,6 +581,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c3305410000000000800000000000000
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: DiamondFour
       rect:
@@ -365,6 +602,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e3305410000000000800000000000000
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: DiamondJack
       rect:
@@ -379,6 +623,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 04305410000000000800000000000000
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: DiamondKing
       rect:
@@ -393,6 +644,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 24305410000000000800000000000000
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: DiamondNine
       rect:
@@ -407,6 +665,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 44305410000000000800000000000000
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: DiamondOne
       rect:
@@ -421,6 +686,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 64305410000000000800000000000000
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: DiamondQueen
       rect:
@@ -435,6 +707,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 84305410000000000800000000000000
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: DiamondSeven
       rect:
@@ -449,6 +728,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a4305410000000000800000000000000
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: DiamondSix
       rect:
@@ -463,6 +749,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c4305410000000000800000000000000
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: DiamondTen
       rect:
@@ -477,6 +770,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e4305410000000000800000000000000
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: DiamondThree
       rect:
@@ -491,6 +791,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 05305410000000000800000000000000
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: DiamondTwo
       rect:
@@ -505,6 +812,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 25305410000000000800000000000000
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: HeartEight
       rect:
@@ -519,6 +833,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 45305410000000000800000000000000
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: HeartFive
       rect:
@@ -533,6 +854,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 65305410000000000800000000000000
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: HeartFour
       rect:
@@ -547,6 +875,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 85305410000000000800000000000000
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: HeartJack
       rect:
@@ -561,6 +896,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a5305410000000000800000000000000
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: HeartKing
       rect:
@@ -575,6 +917,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c5305410000000000800000000000000
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: HeartNine
       rect:
@@ -589,6 +938,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e5305410000000000800000000000000
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: HeartQueen
       rect:
@@ -603,6 +959,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 06305410000000000800000000000000
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: HeartSeven
       rect:
@@ -617,6 +980,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 26305410000000000800000000000000
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: HeartSix
       rect:
@@ -631,6 +1001,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 46305410000000000800000000000000
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: HeartTen
       rect:
@@ -645,6 +1022,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 66305410000000000800000000000000
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: HeartThree
       rect:
@@ -659,6 +1043,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 86305410000000000800000000000000
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: HeartTwo
       rect:
@@ -673,6 +1064,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a6305410000000000800000000000000
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Identity_Farmer
       rect:
@@ -687,6 +1085,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c6305410000000000800000000000000
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Identity_Landlord
       rect:
@@ -701,6 +1106,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e6305410000000000800000000000000
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Ljoker
       rect:
@@ -715,6 +1127,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 07305410000000000800000000000000
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sjoker
       rect:
@@ -729,6 +1148,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 27305410000000000800000000000000
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: SpadeEight
       rect:
@@ -743,6 +1169,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 47305410000000000800000000000000
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: SpadeFive
       rect:
@@ -757,6 +1190,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 67305410000000000800000000000000
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: SpadeFour
       rect:
@@ -771,6 +1211,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 87305410000000000800000000000000
+      internalID: 21300088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: SpadeJack
       rect:
@@ -785,6 +1232,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a7305410000000000800000000000000
+      internalID: 21300090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: SpadeKing
       rect:
@@ -799,6 +1253,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c7305410000000000800000000000000
+      internalID: 21300092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: SpadeNine
       rect:
@@ -813,6 +1274,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e7305410000000000800000000000000
+      internalID: 21300094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: SpadeOne
       rect:
@@ -827,6 +1295,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 08305410000000000800000000000000
+      internalID: 21300096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: SpadeQueen
       rect:
@@ -841,6 +1316,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 28305410000000000800000000000000
+      internalID: 21300098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: SpadeSeven
       rect:
@@ -855,6 +1337,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 48305410000000000800000000000000
+      internalID: 21300100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: SpadeSix
       rect:
@@ -869,6 +1358,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 68305410000000000800000000000000
+      internalID: 21300102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: SpadeTen
       rect:
@@ -883,6 +1379,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 88305410000000000800000000000000
+      internalID: 21300104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: SpadeThree
       rect:
@@ -897,6 +1400,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a8305410000000000800000000000000
+      internalID: 21300106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: SpadeTwo
       rect:
@@ -911,6 +1421,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c8305410000000000800000000000000
+      internalID: 21300108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: BuChu
       rect:
@@ -925,6 +1442,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e8305410000000000800000000000000
+      internalID: 21300110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Clock
       rect:
@@ -939,6 +1463,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 09305410000000000800000000000000
+      internalID: 21300112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Role1
       rect:
@@ -953,6 +1484,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 29305410000000000800000000000000
+      internalID: 21300114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Role2
       rect:
@@ -967,6 +1505,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 49305410000000000800000000000000
+      internalID: 21300116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: None
       rect:
@@ -981,6 +1526,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 69305410000000000800000000000000
+      internalID: 21300118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: HeartOne
       rect:
@@ -995,9 +1547,26 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 89305410000000000800000000000000
+      internalID: 21300120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
   spritePackingTag: UIshare
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: atlas.unity3d
   assetBundleVariant: 

@@ -12,11 +12,11 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{041131cd-3018-19b1-81b6-5dbee2467ffb}</ProjectGuid>
+    <ProjectGuid>{03938ccd-4b40-8dfb-6b9b-21988d5cac0a}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Unity.Editor</AssemblyName>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -30,7 +30,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn></NoWarn>
-    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
     <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
   </PropertyGroup>
   <PropertyGroup>
@@ -41,49 +41,13 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Editor\AstarPathfindingProject\RVONavmeshEditor.cs" />
-    <Compile Include="Assets\Editor\AstarPathfindingProject\SeekerEditor.cs" />
-    <Compile Include="Assets\Editor\BuildEditor\BuildHelper.cs" />
-    <Compile Include="Assets\Editor\AstarPathfindingProject\AILerpEditor.cs" />
-    <Compile Include="Assets\Editor\AstarPathfindingProject\AstarUpdateWindow.cs" />
-    <Compile Include="Assets\Editor\ExcelExporterEditor\ExcelExporterEditor.cs" />
-    <Compile Include="Assets\Editor\Helper\ShellHelper.cs" />
-    <Compile Include="Assets\Editor\AstarPathfindingProject\GraphUpdateSceneEditor.cs" />
-    <Compile Include="Assets\Editor\AstarPathfindingProject\PackageTools\OptimizationHandler.cs" />
-    <Compile Include="Assets\Editor\BuildEditor\BuildIOSEditor.cs" />
-    <Compile Include="Assets\Editor\AstarPathfindingProject\PackageTools\EditorGUIx.cs" />
-    <Compile Include="Assets\Editor\GlobalConfigEditor\GlobalConfigEditor.cs" />
-    <Compile Include="Assets\Editor\AstarPathfindingProject\GraphEditors\RecastGraphEditor.cs" />
-    <Compile Include="Assets\Editor\BuildEditor\BuildHotifxEditor.cs" />
-    <Compile Include="Assets\Editor\AstarPathfindingProject\CustomGraphEditorAttribute.cs" />
-    <Compile Include="Assets\Editor\ServerCommandLineEditor\ServerCommandLineEditor.cs" />
-    <Compile Include="Assets\Editor\AstarPathfindingProject\AIBaseEditor.cs" />
-    <Compile Include="Assets\Editor\AstarPathfindingProject\RVOSquareObstacleEditor.cs" />
-    <Compile Include="Assets\Editor\Helper\EditorResHelper.cs" />
-    <Compile Include="Assets\Editor\AstarPathfindingProject\GraphEditors\GraphEditor.cs" />
-    <Compile Include="Assets\Editor\Proto2CsEditor\InnerProto2CS.cs" />
-    <Compile Include="Assets\Editor\ServerManagerEditor\ServerManagerEditor.cs" />
-    <Compile Include="Assets\Editor\AstarPathfindingProject\PackageTools\EditorBase.cs" />
-    <Compile Include="Assets\Editor\AstarPathfindingProject\RecastMeshObjEditor.cs" />
-    <Compile Include="Assets\Editor\AstarPathfindingProject\PackageTools\EnumFlagDrawer.cs" />
-    <Compile Include="Assets\Editor\AstarPathfindingProject\ModifierEditors\SmoothModifierEditor.cs" />
-    <Compile Include="Assets\Editor\ReferenceCollectorEditor\ReferenceCollectorEditor.cs" />
-    <Compile Include="Assets\Editor\BuildEditor\BuildEditor.cs" />
-    <Compile Include="Assets\Editor\RsyncEditor\RsyncEditor.cs" />
-    <Compile Include="Assets\Editor\AstarPathfindingProject\ModifierEditors\RaycastModifierEditor.cs" />
-    <Compile Include="Assets\Editor\AstarPathfindingProject\AstarPathEditor.cs" />
-    <Compile Include="Assets\Editor\AstarPathfindingProject\AstarUpdateChecker.cs" />
-    <Compile Include="Assets\Editor\Proto2CsEditor\Proto2CSEditor.cs" />
-    <Compile Include="Assets\Editor\AstarPathfindingProject\RVOSimulatorEditor.cs" />
-    <Compile Include="Assets\Editor\LogRedirection.cs" />
-    <Compile Include="Assets\Editor\ILRuntimeEditor\ILRuntimeCLRBinding.cs" />
-    <Compile Include="Assets\Editor\RsyncEditor\RsyncConfig.cs" />
-    <Compile Include="Assets\Editor\Helper\MongoHelper.cs" />
-    <Compile Include="Assets\Editor\AstarPathfindingProject\RVOControllerEditor.cs" />
-    <None Include="Assets\Editor\Unity.Editor.asmdef" />
-    <None Include="Assets\Editor\AstarPathfindingProject\EditorAssets\Materials\Navmesh.cginc" />
-    <None Include="Assets\Editor\AstarPathfindingProject\EditorAssets\Materials\NavmeshOutline.shader" />
-    <None Include="Assets\Editor\AstarPathfindingProject\EditorAssets\Materials\Navmesh.shader" />
+    <Compile Include="Assets\Scripts\Module\Config\ICategory.cs" />
+    <Compile Include="Assets\Scripts\Base\Helper\MongoHelper.cs" />
+    <None Include="Assets\StreamingAssets\Version.txt" />
+    <None Include="Assets\Res\Config\UnitConfig.txt" />
+    <None Include="Assets\Res\Config\GlobalProto.txt" />
+    <None Include="Assets\link.xml" />
+    <None Include="Assets\Res\Config\BuffConfig.txt" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Unity/2021.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -315,20 +279,8 @@
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>C:/Unity/2021.1.0b5/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.Graphs">
-      <HintPath>C:/Unity/2021.1.0b5/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.WindowsStandalone.Extensions">
-      <HintPath>C:/Unity/2021.1.0b5/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
       <HintPath>C:/Users/58329/UnityProjects/LandlordsCore/Unity/Library/PackageCache/com.unity.analytics@3.5.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
-    </Reference>
-    <Reference Include="NPOI.OpenXmlFormats">
-      <HintPath>C:/Users/58329/UnityProjects/LandlordsCore/Unity/Assets/Plugins/Editor/npoi/NPOI.OpenXmlFormats.dll</HintPath>
-    </Reference>
-    <Reference Include="NPOI.OOXML">
-      <HintPath>C:/Users/58329/UnityProjects/LandlordsCore/Unity/Assets/Plugins/Editor/npoi/NPOI.OOXML.dll</HintPath>
     </Reference>
     <Reference Include="winrt">
       <HintPath>C:/Users/58329/UnityProjects/LandlordsCore/Unity/Library/PackageCache/com.unity.purchasing@3.0.0-pre.4/Plugins/UnityPurchasing/winrt/winrt.dll</HintPath>
@@ -345,14 +297,8 @@
     <Reference Include="nunit.framework">
       <HintPath>C:/Users/58329/UnityProjects/LandlordsCore/Unity/Library/PackageCache/com.unity.ext.nunit@1.0.5/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
-    <Reference Include="NPOI">
-      <HintPath>C:/Users/58329/UnityProjects/LandlordsCore/Unity/Assets/Plugins/Editor/npoi/NPOI.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Analytics.Editor">
       <HintPath>C:/Users/58329/UnityProjects/LandlordsCore/Unity/Library/PackageCache/com.unity.analytics@3.5.3/Unity.Analytics.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="NPOI.OpenXml4Net">
-      <HintPath>C:/Users/58329/UnityProjects/LandlordsCore/Unity/Assets/Plugins/Editor/npoi/NPOI.OpenXml4Net.dll</HintPath>
     </Reference>
     <Reference Include="Security">
       <HintPath>C:/Users/58329/UnityProjects/LandlordsCore/Unity/Library/PackageCache/com.unity.purchasing@3.0.0-pre.4/Plugins/UnityPurchasing/Security/live/Security.dll</HintPath>
@@ -708,23 +654,97 @@
     <Reference Include="System.Xml.XPath.XDocument">
       <HintPath>C:/Unity/2021.1.0b5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll</HintPath>
     </Reference>
+    <Reference Include="Purchasing.Common">
+      <HintPath>C:/Users/58329/UnityProjects/LandlordsCore/Unity/Library/ScriptAssemblies/Purchasing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+      <HintPath>C:/Users/58329/UnityProjects/LandlordsCore/Unity/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Editor">
+      <HintPath>C:/Users/58329/UnityProjects/LandlordsCore/Unity/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>C:/Users/58329/UnityProjects/LandlordsCore/Unity/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>C:/Users/58329/UnityProjects/LandlordsCore/Unity/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+      <HintPath>C:/Users/58329/UnityProjects/LandlordsCore/Unity/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>C:/Users/58329/UnityProjects/LandlordsCore/Unity/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>C:/Users/58329/UnityProjects/LandlordsCore/Unity/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements">
+      <HintPath>C:/Users/58329/UnityProjects/LandlordsCore/Unity/Library/ScriptAssemblies/UnityEngine.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>C:/Users/58329/UnityProjects/LandlordsCore/Unity/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>C:/Users/58329/UnityProjects/LandlordsCore/Unity/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>C:/Users/58329/UnityProjects/LandlordsCore/Unity/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Analytics">
+      <HintPath>C:/Users/58329/UnityProjects/LandlordsCore/Unity/Library/ScriptAssemblies/Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>C:/Users/58329/UnityProjects/LandlordsCore/Unity/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>C:/Users/58329/UnityProjects/LandlordsCore/Unity/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.TestRunner">
-      <HintPath>C:/Users/58329/UnityProjects/LandlordsCore/Unity/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+    <Reference Include="Unity.Analytics.DataPrivacy">
+      <HintPath>C:/Users/58329/UnityProjects/LandlordsCore/Unity/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.TestRunner">
-      <HintPath>C:/Users/58329/UnityProjects/LandlordsCore/Unity/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+    <Reference Include="UnityEngine.Purchasing.Codeless">
+      <HintPath>C:/Users/58329/UnityProjects/LandlordsCore/Unity/Library/ScriptAssemblies/UnityEngine.Purchasing.Codeless.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
+      <HintPath>C:/Users/58329/UnityProjects/LandlordsCore/Unity/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>C:/Users/58329/UnityProjects/LandlordsCore/Unity/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing.Stores">
+      <HintPath>C:/Users/58329/UnityProjects/LandlordsCore/Unity/Library/ScriptAssemblies/UnityEngine.Purchasing.Stores.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
+      <HintPath>C:/Users/58329/UnityProjects/LandlordsCore/Unity/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Monetization">
+      <HintPath>C:/Users/58329/UnityProjects/LandlordsCore/Unity/Library/ScriptAssemblies/UnityEngine.Monetization.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Purchasing">
+      <HintPath>C:/Users/58329/UnityProjects/LandlordsCore/Unity/Library/ScriptAssemblies/UnityEditor.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SpatialTracking">
+      <HintPath>C:/Users/58329/UnityProjects/LandlordsCore/Unity/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements.Editor">
+      <HintPath>C:/Users/58329/UnityProjects/LandlordsCore/Unity/Library/ScriptAssemblies/UnityEngine.Advertisements.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing.FacebookCommon">
+      <HintPath>C:/Users/58329/UnityProjects/LandlordsCore/Unity/Library/ScriptAssemblies/UnityEngine.Purchasing.FacebookCommon.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Model.csproj">
       <Project>{9498bfb4-d9f5-c441-13e3-3f26f7700e29}</Project>
       <Name>Unity.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Editor.csproj">
+      <Project>{041131cd-3018-19b1-81b6-5dbee2467ffb}</Project>
+      <Name>Unity.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Hotfix.csproj">
+      <Project>{52f66610-896a-c4d1-9881-1a19df7ab80e}</Project>
+      <Name>Unity.Hotfix</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.ThirdParty.csproj">
       <Project>{d2ad5be1-263a-9a30-ab0f-dc5b08044350}</Project>
